@@ -1,0 +1,24 @@
+{
+  "name": "advanced-react",
+  "version": "1.0.0",
+  "main": "lib/server.js",
+  "author": "<rajjeet.phull@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.0.1",
+    "eslint-plugin-react": "^7.14.2"
+  },
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "pm2": "^3.5.1"
+  },
+  "scripts": {
+    "dev": "pm2 start lib/server.js --watch --interpreter babel-node"
+  }
+}
