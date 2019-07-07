@@ -28,9 +28,12 @@
     "react-dom": "latest"
   },
   "scripts": {
-    "dev": "pm2 start lib/server.js --watch --interpreter babel-node",
+    "dev": "NODE_PATH=./lib pm2 start lib/server.js --watch --interpreter babel-node",
     "webpack": "webpack -wd",
     "test": "jest --watch",
     "lint:watch": "esw lib/ --color -w --clear"
+  },
+  "jest": {
+    "modulePaths": ["lib"]
   }
 }
