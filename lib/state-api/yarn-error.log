@@ -1,0 +1,49 @@
+Arguments: 
+  /usr/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /home/raj/dev/WebStorm-183.4284.130/bin:/home/raj/.rbenv/shims:/home/raj/.rbenv/bin:/home/raj/dev/advanced-react/node_modules/.bin:/usr/local/aws/bin:/home/raj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/raj/.dotnet/tools
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  8.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/raj/dev/advanced-react/lib/state-api/package.json: Unexpected token } in JSON at position 321
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1631:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:315:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "state-api",
+    "version": "1.0.0",
+    "main": "lib/index.js",
+    "author": "<rajjeet.phull@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+      "@babel/core": "^7.5.0",
+      "@babel/preset-env": "^7.5.0",
+      "@babel/preset-react": "^7.0.0",
+      "babel-eslint": "^10.0.2",
+      "babel-loader": "^8.0.6",
+    },
+    "dependencies": {
+      "@babel/plugin-proposal-class-properties": "^7.5.0",
+      "babel-polyfill": "^6.26.0",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
