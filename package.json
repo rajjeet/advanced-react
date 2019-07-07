@@ -11,14 +11,21 @@
     "babel-eslint": "^10.0.2",
     "babel-loader": "^8.0.6",
     "eslint": "^6.0.1",
-    "eslint-plugin-react": "^7.14.2"
+    "eslint-plugin-react": "^7.14.2",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
   },
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "babel-polyfill": "^6.26.0",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
-    "pm2": "^3.5.1"
+    "pm2": "^3.5.1",
+    "react": "latest",
+    "react-dom": "latest"
   },
   "scripts": {
-    "dev": "pm2 start lib/server.js --watch --interpreter babel-node"
+    "dev": "pm2 start lib/server.js --watch --interpreter babel-node",
+    "webpack": "webpack -wd"
   }
 }
