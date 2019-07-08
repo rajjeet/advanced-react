@@ -2,7 +2,7 @@
 
 exports[`ArticleList should render correctly 1`] = `
 "<div>
-  <Article article={{...}} />
-  <Article article={{...}} />
+  <ArticleContainer article={{...}} />
+  <ArticleContainer article={{...}} />
 </div>"
 `;
