@@ -19,7 +19,9 @@ exports[`ArticleList should render correctly 1`] = `
           "fontWeight": "bold",
         }
       }
-    />
+    >
+      a title
+    </div>
     <div
       style={
         Object {
@@ -27,7 +29,7 @@ exports[`ArticleList should render correctly 1`] = `
         }
       }
     >
-      Invalid Date
+      Wed Jul 13 2016
     </div>
     <div
       style={
@@ -47,7 +49,9 @@ exports[`ArticleList should render correctly 1`] = `
           "paddingLeft": 20,
         }
       }
-    />
+    >
+      a
+    </div>
   </div>
   <div
     style={
@@ -66,7 +70,9 @@ exports[`ArticleList should render correctly 1`] = `
           "fontWeight": "bold",
         }
       }
-    />
+    >
+      b title
+    </div>
     <div
       style={
         Object {
@@ -74,7 +80,7 @@ exports[`ArticleList should render correctly 1`] = `
         }
       }
     >
-      Invalid Date
+      Wed Jul 13 2016
     </div>
     <div
       style={
@@ -94,7 +100,9 @@ exports[`ArticleList should render correctly 1`] = `
           "paddingLeft": 20,
         }
       }
-    />
+    >
+      a
+    </div>
   </div>
 </div>
 `;
