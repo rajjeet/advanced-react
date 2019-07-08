@@ -16,6 +16,7 @@
     "eslint-plugin-react": "^7.14.2",
     "eslint-watch": "^5.1.2",
     "jest": "^24.8.0",
+    "lodash.pickby": "^4.6.0",
     "react-test-renderer": "^16.8.6",
     "webpack": "^4.35.2",
     "webpack-cli": "^3.3.5"
@@ -26,6 +27,7 @@
     "babel-polyfill": "^6.26.0",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
+    "lodash.debounce": "^4.0.8",
     "pm2": "^3.5.1",
     "prop-types": "^15.7.2",
     "react": "latest",
@@ -41,6 +43,8 @@
     "modulePaths": [
       "lib"
     ],
-    "setupFiles": ["<rootDir>/lib/setupTests.js"]
+    "setupFiles": [
+      "<rootDir>/lib/setupTests.js"
+    ]
   }
 }
