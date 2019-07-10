@@ -5,6 +5,7 @@
   "author": "<rajjeet.phull@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/cli": "^7.5.0",
     "@babel/core": "^7.5.0",
     "@babel/preset-env": "^7.5.0",
     "@babel/preset-react": "^7.0.0",
@@ -39,7 +40,8 @@
     "test": "jest --watch",
     "test:coverage": "jest --coverage",
     "lint:watch": "esw lib/ --color -w --clear",
-    "build-webpack": "webpack -p"
+    "build-webpack": "webpack -p",
+    "build-node": "npx babel lib/ -d build --copy-files --ignore lib/state-api"
   },
   "jest": {
     "modulePaths": [
