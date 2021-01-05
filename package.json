@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.5.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "babel-polyfill": "^6.26.0",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
