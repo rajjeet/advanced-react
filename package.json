@@ -20,7 +20,7 @@
     "lodash.pickby": "^4.6.0",
     "react-test-renderer": "^16.8.6",
     "webpack": "^4.35.2",
-    "webpack-cli": "^3.3.5"
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.5.0",
