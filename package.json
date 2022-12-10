@@ -27,7 +27,7 @@
     "axios": "^0.19.0",
     "babel-polyfill": "^6.26.0",
     "ejs": "^2.6.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "lodash.debounce": "^4.0.8",
     "pm2": "^3.5.1",
     "prop-types": "^15.7.2",
